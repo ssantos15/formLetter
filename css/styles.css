@@ -1,0 +1,27 @@
+body {
+  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+#postcard {
+  display: none;
+  margin-top:15%;
+  border: 60px solid black;
+  cursor: pointer;
+}
+
+#from {
+  padding-top: 3%;
+  padding-left:3%;
+}
+
+#to {
+  padding-bottom:7%;
+  padding-left: 40%;
+}
+
+#letter {
+  display:none;
+  cursor:pointer;
+  margin-top:10%; /*margin-top isn't working either*/
+  border:100px solid black; /*border isn't working..why not?*/
+};
