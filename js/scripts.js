@@ -1,7 +1,7 @@
 $(function() {
   $("#formOne").submit(function(event) {
     var inputName = $("#iName").val();
-    $(".name").text(inputName);//need to find a way to replace the last append so it doesnt keep appending names
+    $(".name").text(inputName);
     $("#postcard").show();
     $("#postcard").click(function() {
       $("#postcard").hide();
